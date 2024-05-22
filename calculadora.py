@@ -1,4 +1,4 @@
-print('CALCULADORA')
+print("Calculadora")
 print("Operações disponíveis:")
 print("1. Soma")
 print("2. Subtração")
