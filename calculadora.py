@@ -1,3 +1,4 @@
+import math
 print("Calculadora")
 print("Operações disponíveis:")
 print("1. Soma")
@@ -17,6 +18,18 @@ elif opcao == '2':
     print(f"Resultado: {resultado}")
 elif opcao == '3':
     num1 = float(input("Digite o primeiro número: "))
+
+#Ryan
+else:
+        resultado = num1 / num2
+        print(f"Resultado: {resultado}")
+elif opcao == '5':
+    num = float(input("Digite o número para calcular a raiz quadrada: "))
+    resultado = math.sqrt(num) 
+    print(f"Resultado: {resultado}")
+elif opcao == '6':
+    angulo = float(input("Digite o ângulo em graus: "))
+
 
 
 
