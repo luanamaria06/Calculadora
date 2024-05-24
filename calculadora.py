@@ -26,6 +26,16 @@ elif opcao == '2':
     print(f"Resultado: {resultado}")
 elif opcao == '3':
     num1 = float(input("Digite o primeiro número: "))
+#Matheus
+    num2 = float(input("Digite o segundo número: "))
+    resultado = num1 * num2
+    print(f"Resultado: {resultado}")
+elif opcao == '4':
+    num1 = float(input("Digite o primeiro número: "))
+    num2 = float(input("Digite o segundo número: "))
+    if num2 == 0:
+        print("Erro: Divisão por zero!")
+
 
 #Ryan
 else:
